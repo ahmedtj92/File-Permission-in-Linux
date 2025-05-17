@@ -1,4 +1,4 @@
-<h1>File Permission in Linux</h1>
+<h1>Using Linux commands to manage file permissions</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
