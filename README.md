@@ -68,12 +68,13 @@ My organization only wants the researcher2 user to have access to the drafts dir
 <br />
 The following code demonstrates how I used Linux commands to change the permissions:
 <br />
-<br/>
+<br />
 <img src="https://i.imgur.com/oi9rxxI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.<br />
 <br />
-Summary<br />
+ <b>Summary</b>
+ <br />
 I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories.<br />
 <br />
 <br />
